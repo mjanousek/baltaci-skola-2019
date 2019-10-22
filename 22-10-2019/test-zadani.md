@@ -18,3 +18,7 @@ Vytvorte podminku, ktera vypise:
  - promennou **obsah** do html elementu **p** v pripade, ze promenna **format** obsahuje text **odstavec**
  - promennou **obsah** do html elementu **div** v kazdem jinem pripade.
 Hint: Pouzijte operator konkatenace.
+
+**Zobrazeni vaseho souboru:**http://localhost/uvodphp/test-zadani.php
+
+**Vysledny ukol udeslete na email:** mjanousek92@gmail.com
