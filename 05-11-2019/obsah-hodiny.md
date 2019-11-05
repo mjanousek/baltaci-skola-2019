@@ -1,4 +1,4 @@
-# 8.10.2019
+# 5.11.2019
 
 - PHP funkce, pole, retezce [prezentace](https://docs.google.com/presentation/d/1qib1pMc-4a-55AAtjbCQhsvdhZo-AE1e4wc1N5Ep8gQ/edit?usp=sharing)
 - samostatná práce - viz ukol-zadani.php
