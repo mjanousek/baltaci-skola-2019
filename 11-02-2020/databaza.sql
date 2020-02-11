@@ -11,9 +11,7 @@ CREATE TABLE `objednavka` (
   `datum_vytvoreni` datetime NOT NULL,
   `vyrizeno` tinyint(1) NOT NULL,
   `zakaznik_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `zakaznik_id` (`zakaznik_id`),
-  CONSTRAINT `objednavka_ibfk_1` FOREIGN KEY (`zakaznik_id`) REFERENCES `zakaznik` (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `objednavka` (`id`, `datum_vytvoreni`, `vyrizeno`, `zakaznik_id`) VALUES
@@ -27,9 +25,7 @@ CREATE TABLE `polozka_objednavky` (
   `nazev` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
   `cena` int(11) NOT NULL,
   `objednavka_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `objednavka_id` (`objednavka_id`),
-  CONSTRAINT `polozka_objednavky_ibfk_1` FOREIGN KEY (`objednavka_id`) REFERENCES `objednavka` (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `polozka_objednavky` (`id`, `nazev`, `cena`, `objednavka_id`) VALUES
